@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/ise_projs/PROJ-1/MUX_T1_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mux_t1_tb" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/mux_t1_tb/in1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in1</obj_property>
+      <obj_property name="ObjectShortName">in1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_t1_tb/in2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in2</obj_property>
+      <obj_property name="ObjectShortName">in2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_t1_tb/in3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in3</obj_property>
+      <obj_property name="ObjectShortName">in3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_t1_tb/in4" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">in4</obj_property>
+      <obj_property name="ObjectShortName">in4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_t1_tb/ctrl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mux_t1_tb/sai" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sai</obj_property>
+      <obj_property name="ObjectShortName">sai</obj_property>
+   </wvobject>
+</wave_config>

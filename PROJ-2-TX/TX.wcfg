@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/ise_projs/PROJ-2/TX_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tx_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tx_tb/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tx_tb/linha" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">linha</obj_property>
+      <obj_property name="ObjectShortName">linha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tx_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tx_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tx_tb/send" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">send</obj_property>
+      <obj_property name="ObjectShortName">send</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tx_tb/palavra" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">palavra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">palavra[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tx_tb/UUT/atual" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">atual</obj_property>
+      <obj_property name="ObjectShortName">atual</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tx_tb/UUT/palavra_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">palavra_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">palavra_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tx_tb/UUT/palavra_sm" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">palavra_sm</obj_property>
+      <obj_property name="ObjectShortName">palavra_sm</obj_property>
+   </wvobject>
+</wave_config>
