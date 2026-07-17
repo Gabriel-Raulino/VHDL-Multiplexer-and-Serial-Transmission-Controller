@@ -18,14 +18,14 @@ begin
 	process
 	begin
 	
-	clock <= '1' after 5ns, '0' after 10ns;
+	clock <= '1' after 5 ns, '0' after 10 ns;
 	
-	wait for 10ns;
+	wait for 10 ns;
 	end process;
 	
 	
  reset <= '1', '0' after 3 ns;
- send <= '0', '1' after 23 ns, '0' after 50 ns, '1' after 160ns, '0' after 200 ns;
- palavra <= "11010001", "00100110" after 150ns;
+ send <= '0', '1' after 23 ns, '0' after 50 ns, '1' after 160 ns, '0' after 200 ns;
+ palavra <= "11010001", "00100110" after 150 ns;
  
-end TX_TB;
+end TX_TB;
