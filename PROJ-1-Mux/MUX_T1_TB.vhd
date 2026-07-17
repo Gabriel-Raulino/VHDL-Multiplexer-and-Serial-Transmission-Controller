@@ -65,8 +65,8 @@ ARCHITECTURE MUX_T1_TB OF MUX_T1_TB IS
 
 BEGIN
 	
-	in1 <= '0' after 5ns;
-	ctrl <= "00", "01" after 10ns, "10" after 20ns, "11" after 30ns;
+	in1 <= '0' after 5 ns;
+	ctrl <= "00", "01" after 10 ns, "10" after 20 ns, "11" after 30 ns;
 
 	-- Instantiate the Unit Under Test (UUT)
    uut: MUX PORT MAP (
@@ -81,4 +81,4 @@ BEGIN
 
    
 
-END;
+END;
